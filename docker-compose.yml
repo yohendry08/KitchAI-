@@ -1,0 +1,97 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: kitchai-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-kitchai}
+      POSTGRES_USER: ${POSTGRES_USER:-kitchai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kitchai123}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-kitchai} -d ${POSTGRES_DB:-kitchai}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  adminer:
+    image: adminer:4.8.1
+    container_name: kitchai-adminer
+    restart: unless-stopped
+    environment:
+      ADMINER_DEFAULT_SERVER: postgres
+      ADMINER_DESIGN: pepa-linha
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: kitchai-backend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: ${NODE_ENV:-production}
+      PORT: ${BACKEND_PORT:-4000}
+      APP_ORIGIN: ${APP_ORIGIN:-http://localhost:3000}
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:-http://localhost:3000}
+      API_BASE_PATH: ${API_BASE_PATH:-/api}
+      DATABASE_URL: ${DATABASE_URL:-postgresql://kitchai:kitchai123@postgres:5432/kitchai}
+      DB_HOST: postgres
+      DB_PORT: ${DB_PORT:-5432}
+      DB_NAME: ${POSTGRES_DB:-kitchai}
+      DB_USER: ${POSTGRES_USER:-kitchai}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:-kitchai123}
+      DEFAULT_EMPLOYEE_PASSWORD: ${DEFAULT_EMPLOYEE_PASSWORD:-123456}
+      SEED_DEFAULT_PASSWORD: ${SEED_DEFAULT_PASSWORD:-123456}
+      SESSION_TTL_HOURS: ${SESSION_TTL_HOURS:-24}
+      RESTAURANT_TABLES: ${RESTAURANT_TABLES:-Mesa 1,Mesa 2,Mesa 3,Mesa 4,Mesa 5}
+    ports:
+      - "${BACKEND_PORT:-4000}:4000"
+    volumes:
+      - ./backend/data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-/api}
+        NEXT_PUBLIC_RESTAURANT_NAME: ${NEXT_PUBLIC_RESTAURANT_NAME:-KitchAI}
+        NEXT_PUBLIC_CONTACT_EMAIL: ${NEXT_PUBLIC_CONTACT_EMAIL:-contacto@kitchai.com}
+        NEXT_PUBLIC_CONTACT_PHONE: ${NEXT_PUBLIC_CONTACT_PHONE:-+1 234 557 880}
+        NEXT_PUBLIC_RESTAURANT_ADDRESS: ${NEXT_PUBLIC_RESTAURANT_ADDRESS:-Calle Bonita 4:45, Ciudad Gourmet}
+        NEXT_PUBLIC_OPEN_TIME: ${NEXT_PUBLIC_OPEN_TIME:-11:00}
+        NEXT_PUBLIC_CLOSE_TIME: ${NEXT_PUBLIC_CLOSE_TIME:-22:00}
+        NEXT_PUBLIC_COPYRIGHT_YEAR: ${NEXT_PUBLIC_COPYRIGHT_YEAR:-2026}
+        NEXT_PUBLIC_MAP_EMBED_URL: ${NEXT_PUBLIC_MAP_EMBED_URL:-https://www.openstreetmap.org/export/embed.html?bbox=-99.175%2C19.41%2C-99.165%2C19.42&layer=mapnik}
+    container_name: kitchai-frontend
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-/api}
+      BACKEND_INTERNAL_URL: ${BACKEND_INTERNAL_URL:-http://backend:4000}
+      NEXT_PUBLIC_RESTAURANT_NAME: ${NEXT_PUBLIC_RESTAURANT_NAME:-KitchAI}
+      NEXT_PUBLIC_CONTACT_EMAIL: ${NEXT_PUBLIC_CONTACT_EMAIL:-contacto@kitchai.com}
+      NEXT_PUBLIC_CONTACT_PHONE: ${NEXT_PUBLIC_CONTACT_PHONE:-+1 234 557 880}
+      NEXT_PUBLIC_RESTAURANT_ADDRESS: ${NEXT_PUBLIC_RESTAURANT_ADDRESS:-Calle Bonita 4:45, Ciudad Gourmet}
+      NEXT_PUBLIC_OPEN_TIME: ${NEXT_PUBLIC_OPEN_TIME:-11:00}
+      NEXT_PUBLIC_CLOSE_TIME: ${NEXT_PUBLIC_CLOSE_TIME:-22:00}
+      NEXT_PUBLIC_COPYRIGHT_YEAR: ${NEXT_PUBLIC_COPYRIGHT_YEAR:-2026}
+      NEXT_PUBLIC_MAP_EMBED_URL: ${NEXT_PUBLIC_MAP_EMBED_URL:-https://www.openstreetmap.org/export/embed.html?bbox=-99.175%2C19.41%2C-99.165%2C19.42&layer=mapnik}
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_started
+
+volumes:
+  postgres_data:

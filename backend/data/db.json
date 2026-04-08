@@ -1,0 +1,1147 @@
+{
+  "users": [
+    {
+      "id": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "firstName": "Manuel",
+      "lastName": "Guzman",
+      "email": "admin@kitchai.com",
+      "phone": "+1 234 570",
+      "role": "admin",
+      "passwordHash": "$2b$12$AKq0CKmk1DzVIERB8MhW2ehjJ4OhxO58Iure9oOu75Y.UJBftMzBq",
+      "active": true,
+      "createdAt": "2026-03-07T02:08:26.987Z"
+    },
+    {
+      "id": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "firstName": "Maria",
+      "lastName": "Gomez",
+      "email": "empleado@kitchai.com",
+      "phone": "+1 234 567",
+      "role": "employee",
+      "passwordHash": "$2b$12$wulripCvBQuUHcUcWjf6X.B7LOCU92w2Gock9lXOK7gAwbPLJ0uIS",
+      "active": true,
+      "createdAt": "2026-03-07T02:08:26.987Z"
+    },
+    {
+      "id": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "firstName": "Cliente",
+      "lastName": "Demo",
+      "email": "cliente@kitchai.com",
+      "phone": "+1 234 999",
+      "role": "client",
+      "passwordHash": "$2b$12$D64E4WqihHYjmeUOb4EVv.OVzavUvvah6jeXFBOCxz7zT.e0CQnaG",
+      "active": true,
+      "createdAt": "2026-03-07T02:08:26.987Z"
+    },
+    {
+      "id": "32f44312-f3f5-4818-8a45-ba47fd8abe00",
+      "firstName": "Batch",
+      "lastName": "User",
+      "email": "batchb02_5e435433ae8b4beba39957c33a9a6751@example.com",
+      "phone": "+100000000",
+      "role": "client",
+      "passwordHash": "$2b$12$/VwKqui8gc7uCYqh0W0IHOZ4pRePBvQ0jUu354MtBkJpxnuCOEBp.",
+      "active": true,
+      "createdAt": "2026-04-08T14:50:25.693Z"
+    },
+    {
+      "id": "d5f52018-9105-4049-b5a3-a866b2963414",
+      "firstName": "Smoke",
+      "lastName": "Client",
+      "email": "smoke-client-1775661776404@kitchai.test",
+      "phone": "+1 999 6404",
+      "role": "client",
+      "passwordHash": "$2b$12$hD5bb.zq0ryetb4HPuWfied6qfXWEX34T4LeF9zWK8wjJ4Zcc19uq",
+      "active": true,
+      "createdAt": "2026-04-08T15:22:56.811Z"
+    },
+    {
+      "id": "58b61aae-1909-4a73-b0ae-f81c07003292",
+      "firstName": "Smoke",
+      "lastName": "Client",
+      "email": "smoke-client-1775662024113@kitchai.test",
+      "phone": "+1 999 4113",
+      "role": "client",
+      "passwordHash": "$2b$12$NE7vqCmVnLbEF8gZjl2m..4rLTtOj2nJQMPu.Hz5oRF4ahV17cw7u",
+      "active": true,
+      "createdAt": "2026-04-08T15:27:04.519Z"
+    },
+    {
+      "id": "754d1150-3c29-4279-924d-fe4a2a368271",
+      "firstName": "Smoke",
+      "lastName": "Client",
+      "email": "smoke-client-1775662722454@kitchai.test",
+      "phone": "+1 999 2454",
+      "role": "client",
+      "passwordHash": "$2b$12$Qpm1Dez3o7LElzcERGeYpedMtAx1VLKTNnl31dSB59BNEUVWsO..e",
+      "active": true,
+      "createdAt": "2026-04-08T15:38:43.064Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "d44293ca-e359-4d4f-abdc-c147c453a69a",
+      "userId": "32f44312-f3f5-4818-8a45-ba47fd8abe00",
+      "createdAt": "2026-04-08T14:50:26.195Z"
+    },
+    {
+      "token": "cb48f442-77a8-4571-ad25-6cfb8cefda05",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:05:33.078Z"
+    },
+    {
+      "token": "0cbb169b-d778-4582-8f69-7ab9a79adf44",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:05:33.533Z"
+    },
+    {
+      "token": "f2c1bb01-7769-45da-bba3-490105123dc3",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:05:48.044Z"
+    },
+    {
+      "token": "05b28dca-e562-4e19-bc71-c90a6d2c60c2",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:05:48.466Z"
+    },
+    {
+      "token": "825bca78-4c35-47c5-99cd-7d22e0f5dcc7",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:06:05.710Z"
+    },
+    {
+      "token": "7a2a693d-aaef-4308-91c5-b1f4f5f190da",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:06:06.126Z"
+    },
+    {
+      "token": "fbcc432b-f857-4aa9-860b-0291962d227c",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:12:15.418Z"
+    },
+    {
+      "token": "c41c4897-ac30-4f71-9ea2-09c728832334",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:12:15.834Z"
+    },
+    {
+      "token": "ea01fc3f-6277-4c74-abaa-5815ce21cf4b",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T15:22:55.052Z"
+    },
+    {
+      "token": "8fe68ea5-af7a-410f-b322-52b7197b739e",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:22:55.495Z"
+    },
+    {
+      "token": "f4d19a72-d912-4469-929a-2483743e1e93",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:22:55.954Z"
+    },
+    {
+      "token": "c4cf2c1f-be44-462f-a1de-d906b3c3de44",
+      "userId": "d5f52018-9105-4049-b5a3-a866b2963414",
+      "createdAt": "2026-04-08T15:22:57.221Z"
+    },
+    {
+      "token": "e86b32ca-9d20-4168-b9ef-99f05cd291a8",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:23:01.575Z"
+    },
+    {
+      "token": "251e7676-dd72-42d6-bbdf-2dc285f5047e",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:23:02.052Z"
+    },
+    {
+      "token": "0a25bec0-836d-4bb4-9d53-6443639b3bb3",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T15:27:02.787Z"
+    },
+    {
+      "token": "68102cd2-45f0-4397-a6f9-67cb9205ac45",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:27:03.239Z"
+    },
+    {
+      "token": "cd455c04-fb72-404b-bfbe-97f8167b15b8",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:27:03.685Z"
+    },
+    {
+      "token": "23d85fd1-03be-4da3-9dcb-117efb7c8219",
+      "userId": "58b61aae-1909-4a73-b0ae-f81c07003292",
+      "createdAt": "2026-04-08T15:27:04.958Z"
+    },
+    {
+      "token": "a6c22ae7-6152-480f-ab90-2fbdf35cc103",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:27:06.131Z"
+    },
+    {
+      "token": "ceddb05e-08d8-45d3-ab32-a3635b18c9cc",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:27:06.587Z"
+    },
+    {
+      "token": "311923fd-d875-43d8-9956-0bb9fb0ee70b",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T15:38:40.887Z"
+    },
+    {
+      "token": "ca0a3104-425c-418d-ad32-c95e3e720c65",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:38:41.456Z"
+    },
+    {
+      "token": "176910ac-979d-409a-96d9-528c3bf8b0a8",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:38:41.955Z"
+    },
+    {
+      "token": "bb736833-b607-4d78-bf45-fa5ea09dce67",
+      "userId": "754d1150-3c29-4279-924d-fe4a2a368271",
+      "createdAt": "2026-04-08T15:38:43.628Z"
+    },
+    {
+      "token": "b9b929bb-6c1c-4585-8895-6c59249b6982",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "createdAt": "2026-04-08T15:38:45.484Z"
+    },
+    {
+      "token": "0d81d483-c731-45fb-a932-79011c5652c2",
+      "userId": "7527ff5e-fa75-4137-bd8b-045beef96fa1",
+      "createdAt": "2026-04-08T15:38:46.125Z"
+    },
+    {
+      "token": "15705675-4b36-4160-afc6-64793425b363",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:14:06.101Z"
+    },
+    {
+      "token": "37d8bd6b-8ae4-48fb-bdfd-e91b1932ce06",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:14:52.295Z"
+    },
+    {
+      "token": "c226e6c8-c141-4692-96a6-aead1264b624",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:15:03.418Z"
+    },
+    {
+      "token": "d34903ad-0e5f-45b1-923c-bce157ea41f0",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:25:57.822Z"
+    },
+    {
+      "token": "4d829ca6-5e38-4216-a9a4-cb263cd22b1d",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:26:19.884Z"
+    },
+    {
+      "token": "a4e40d8d-0283-4500-93ab-d479b61761e9",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:27:22.622Z"
+    },
+    {
+      "token": "dce80796-6fd7-4d15-8e07-f8747681540c",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:57:25.033Z"
+    },
+    {
+      "token": "d04df5dc-72ca-438e-aa15-d36d8ec824bc",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T20:57:47.532Z"
+    },
+    {
+      "token": "9b7c49ba-a20d-4d27-8db1-bfdcf8169be5",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:02:27.861Z"
+    },
+    {
+      "token": "404b4c30-af6a-49b1-83a7-6f66a4639d69",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:02:48.747Z"
+    },
+    {
+      "token": "c7e7f9ea-9ec2-4569-9080-90d25ad80067",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:04:55.602Z"
+    },
+    {
+      "token": "0d80d573-319f-4bba-8f17-89d54421cf75",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:05:09.795Z"
+    },
+    {
+      "token": "90ea522c-0bbb-42f3-b639-b0455c8abb03",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:05:27.878Z"
+    },
+    {
+      "token": "38fc0cc2-3ad1-425f-a47d-1d177026bc4c",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:05:44.324Z"
+    },
+    {
+      "token": "236b3911-e631-462f-b852-893cfda85fd6",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:06:27.057Z"
+    },
+    {
+      "token": "6430e4e0-4c7e-45f9-864f-f0d8cb01fe5c",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:06:42.416Z"
+    },
+    {
+      "token": "4995b4f9-0a18-4205-a496-dadd413058ca",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:07:02.276Z"
+    },
+    {
+      "token": "4e2e4e2c-a0a4-4559-b29a-d7eddd68cf5d",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:09:37.485Z"
+    },
+    {
+      "token": "0da2730a-6210-4332-bf2e-bb9a6e9b3d46",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:10:13.418Z"
+    },
+    {
+      "token": "baffb7dc-a6a4-44e8-89a2-e09366dfa07e",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "createdAt": "2026-04-08T21:12:11.547Z"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "8d1104b2-77e2-4c8e-86d4-8afcbbb3a6ec",
+      "name": "Carpaccio de Remolacha",
+      "description": "Remolacha asada, queso de cabra, nueces caramelizadas y miel especiada.",
+      "price": 520,
+      "category": "Entradas",
+      "image": "/images/carpaccio-remolacha.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.817Z"
+    },
+    {
+      "id": "a7b74270-91c1-4059-9fd8-8e795b9730c9",
+      "name": "Vieiras al Fuego de Citricos",
+      "description": "Vieiras selladas con pure de coliflor tostada, limon real y aceite de eneldo.",
+      "price": 760,
+      "category": "Entradas",
+      "image": "/images/vieiras-citricos.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.825Z"
+    },
+    {
+      "id": "1bc85d08-9b7d-41f9-a8a8-b46ce2066066",
+      "name": "Croquetas de Cangrejo",
+      "description": "Croquetas cremosas de cangrejo, aioli de limon y ensalada fresca de hierbas.",
+      "price": 480,
+      "category": "Entradas",
+      "image": "/images/caprese-salad.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.833Z"
+    },
+    {
+      "id": "2cc5c2ec-5bb2-4c0c-9da8-91ba7b2478c4",
+      "name": "Pulpo a la Brasa",
+      "description": "Pulpo tierno con papas confitadas, pimenton ahumado y vinagreta de perejil.",
+      "price": 890,
+      "category": "Entradas",
+      "image": "/images/hero-dish.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.843Z"
+    },
+    {
+      "id": "db6cbbd1-d831-4262-97f7-9944f5f17f62",
+      "name": "Solomillo Lumiere",
+      "description": "Corte madurado con reduccion de vino, gratin de papas y romero fresco.",
+      "price": 1850,
+      "category": "Platos Fuertes",
+      "image": "/images/solomillo-lumiere.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.854Z"
+    },
+    {
+      "id": "f6ff4f7e-ec19-431c-bd0f-a379d0ca126d",
+      "name": "Bacalao en Piel de Oro",
+      "description": "Bacalao confitado con esparragos y emulsion ligera de azafran.",
+      "price": 1490,
+      "category": "Platos Fuertes",
+      "image": "/images/bacalao-oro.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.866Z"
+    },
+    {
+      "id": "0c1cf010-858f-4805-ab6c-345337017d00",
+      "name": "Risotto de Hongos",
+      "description": "Arroz carnaroli, setas silvestres, mantequilla de porcini y parmesano.",
+      "price": 1180,
+      "category": "Platos Fuertes",
+      "image": "/images/risotto-hongos.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.878Z"
+    },
+    {
+      "id": "29fc84c1-4d6d-444a-89da-71eb3fb3344c",
+      "name": "Pato a la Lavanda",
+      "description": "Magret glaseado con miel de campo, higos frescos y perfume de lavanda.",
+      "price": 1680,
+      "category": "Platos Fuertes",
+      "image": "/images/pato-lavanda.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.888Z"
+    },
+    {
+      "id": "52729744-1544-4a1e-b4e5-b3f68252aef2",
+      "name": "Salmon a la Parrilla",
+      "description": "Salmon sellado con pure de yuca suave, esparragos y mantequilla citrica.",
+      "price": 1390,
+      "category": "Platos Fuertes",
+      "image": "/images/grilled-salmon.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.897Z"
+    },
+    {
+      "id": "fed8e00b-8913-409d-814d-c018a0d10cfa",
+      "name": "Mofongo Cremoso de Camarones",
+      "description": "Mofongo suave con camarones salteados, caldo concentrado y aceite de cilantro.",
+      "price": 1320,
+      "category": "Platos Fuertes",
+      "image": "/images/hero-dish.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.910Z"
+    },
+    {
+      "id": "f5319cad-7164-45ea-8d06-3a608eb91931",
+      "name": "Esfera de Chocolate Valrhona",
+      "description": "Esfera de chocolate oscuro con crema de pistacho y centro tibio de cacao.",
+      "price": 420,
+      "category": "Postres",
+      "image": "/images/esfera-chocolate.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.922Z"
+    },
+    {
+      "id": "fac1bfb3-5772-4e57-8398-fb76af59820f",
+      "name": "Pavlova de Frutos Rojos",
+      "description": "Merengue crujiente con chantilly ligera y coulis de frutos rojos.",
+      "price": 390,
+      "category": "Postres",
+      "image": "/images/pavlova.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.930Z"
+    },
+    {
+      "id": "b477e292-fd5b-4106-8d38-938cb8190df0",
+      "name": "Flan de Vainilla",
+      "description": "Flan suave de vainilla natural con caramelo oscuro y sal marina.",
+      "price": 310,
+      "category": "Postres",
+      "image": "/images/pavlova.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.939Z"
+    },
+    {
+      "id": "bd421738-9554-445c-8267-59a8fc096bb1",
+      "name": "Tarta Tibia de Coco",
+      "description": "Tarta de coco con helado de canela y reduccion de ron especiado.",
+      "price": 360,
+      "category": "Postres",
+      "image": "/images/esfera-chocolate.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.948Z"
+    },
+    {
+      "id": "7087ee0e-0fa6-4c65-bb09-fc2f4cdd5eb6",
+      "name": "Mojito de Maracuya",
+      "description": "Coctel fresco con maracuya, hierbabuena y citricos.",
+      "price": 340,
+      "category": "Bebidas",
+      "image": "/images/reservation-ambience.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.956Z"
+    },
+    {
+      "id": "89480e25-47ce-488f-8167-a60e2e1f04bb",
+      "name": "Limonada de Jengibre",
+      "description": "Limonada natural con jengibre fresco, menta y un toque de miel.",
+      "price": 180,
+      "category": "Bebidas",
+      "image": "/images/restaurant-ambience.jpg",
+      "available": true,
+      "createdAt": "2026-04-08T21:12:11.963Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "93df5efd-191e-49bb-b423-48540a283a62",
+      "userId": "04cfa177-a208-4bde-a81a-98b58a6aa73b",
+      "salary": 3500
+    },
+    {
+      "id": "42cd31fc-e140-4dd1-a345-f65ddefa6269",
+      "userId": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "salary": 2500
+    }
+  ],
+  "orders": [
+    {
+      "id": "#0007",
+      "table": "Mesa 1",
+      "type": "salon",
+      "status": "Entregado",
+      "total": 16,
+      "createdAt": "2026-04-08T15:38:46.158Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "note": "smoke-live-order",
+      "items": [
+        {
+          "menuItemId": "117a8396-d710-4f95-b668-dc298f83412c",
+          "name": "Caprese Salad",
+          "quantity": 2,
+          "unitPrice": 8
+        }
+      ]
+    },
+    {
+      "id": "#0006",
+      "table": "Mesa 1",
+      "type": "salon",
+      "status": "Entregado",
+      "total": 16,
+      "createdAt": "2026-04-08T15:27:06.603Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "note": "smoke-live-order",
+      "items": [
+        {
+          "menuItemId": "117a8396-d710-4f95-b668-dc298f83412c",
+          "name": "Caprese Salad",
+          "quantity": 2,
+          "unitPrice": 8
+        }
+      ]
+    },
+    {
+      "id": "#0005",
+      "table": "Mesa 1",
+      "type": "salon",
+      "status": "Entregado",
+      "total": 16,
+      "createdAt": "2026-04-08T15:23:02.092Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "note": "smoke-live-order",
+      "items": [
+        {
+          "menuItemId": "117a8396-d710-4f95-b668-dc298f83412c",
+          "name": "Caprese Salad",
+          "quantity": 2,
+          "unitPrice": 8
+        }
+      ]
+    },
+    {
+      "id": "#0004",
+      "table": "Mesa 1",
+      "type": "salon",
+      "status": "Entregado",
+      "total": 16,
+      "createdAt": "2026-04-08T15:12:15.876Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "note": "smoke-live-order",
+      "items": [
+        {
+          "menuItemId": "117a8396-d710-4f95-b668-dc298f83412c",
+          "name": "Caprese Salad",
+          "quantity": 2,
+          "unitPrice": 8
+        }
+      ]
+    },
+    {
+      "id": "#0003",
+      "table": "Mesa 1",
+      "type": "salon",
+      "status": "Pendiente",
+      "total": 16,
+      "createdAt": "2026-04-08T15:06:06.145Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "note": "smoke-live-order",
+      "items": [
+        {
+          "menuItemId": "117a8396-d710-4f95-b668-dc298f83412c",
+          "name": "Caprese Salad",
+          "quantity": 2,
+          "unitPrice": 8
+        }
+      ]
+    },
+    {
+      "id": "#0016",
+      "table": "Mesa 2",
+      "status": "Pendiente",
+      "total": 40,
+      "createdAt": "2026-03-07T02:08:26.987Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "items": []
+    },
+    {
+      "id": "#0015",
+      "table": "Mesa 3",
+      "status": "Entregado",
+      "total": 68,
+      "createdAt": "2026-03-07T02:08:26.987Z",
+      "createdBy": "3ac18ab2-4bfc-470c-ab97-12f4feb58707",
+      "items": []
+    }
+  ],
+  "reservations": [
+    {
+      "id": "#3012",
+      "date": "2026-02-20",
+      "hour": "17:00",
+      "guests": 3,
+      "name": "Juan Perez",
+      "email": "juan@mail.com",
+      "phone": "+1 111 222",
+      "status": "Pendiente",
+      "createdAt": "2026-03-07T02:08:26.987Z"
+    }
+  ],
+  "inventoryItems": [
+    {
+      "id": "e15202e0-37d7-4511-b604-a11a7587ee91",
+      "name": "Remolacha organica",
+      "quantity": 25,
+      "unit": "kg",
+      "minStock": 10,
+      "cost": 95,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.190Z"
+    },
+    {
+      "id": "ad4cc7f0-654d-441f-8fe8-e527d752bf53",
+      "name": "Queso de cabra",
+      "quantity": 12,
+      "unit": "kg",
+      "minStock": 6,
+      "cost": 420,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.196Z"
+    },
+    {
+      "id": "f6c99fe5-ecd3-4fa9-beb9-76ff6483f2d9",
+      "name": "Nueces caramelizadas",
+      "quantity": 7,
+      "unit": "kg",
+      "minStock": 4,
+      "cost": 310,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.202Z"
+    },
+    {
+      "id": "5014e50f-7baf-407b-8463-b2ff775cb3dc",
+      "name": "Vieiras premium",
+      "quantity": 7,
+      "unit": "kg",
+      "minStock": 10,
+      "cost": 1450,
+      "status": "Bajo",
+      "updatedAt": "2026-04-08T21:12:12.402Z"
+    },
+    {
+      "id": "bfc63d3e-37c1-4180-814b-9718b58478de",
+      "name": "Coliflor",
+      "quantity": 14,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 110,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.215Z"
+    },
+    {
+      "id": "558eca99-fe8b-486f-b72d-231dfb19e015",
+      "name": "Carne de cangrejo",
+      "quantity": 8,
+      "unit": "kg",
+      "minStock": 5,
+      "cost": 890,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.222Z"
+    },
+    {
+      "id": "d664f579-529f-4444-8e9b-f6b663782892",
+      "name": "Pulpo",
+      "quantity": 6,
+      "unit": "kg",
+      "minStock": 5,
+      "cost": 980,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.228Z"
+    },
+    {
+      "id": "3ee836ba-f7fb-489a-b8d7-9661e0e4ce02",
+      "name": "Solomillo madurado",
+      "quantity": 18,
+      "unit": "kg",
+      "minStock": 12,
+      "cost": 1250,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.235Z"
+    },
+    {
+      "id": "0e608324-36d5-424f-aee2-60e028183c89",
+      "name": "Bacalao premium",
+      "quantity": 12,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 780,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.241Z"
+    },
+    {
+      "id": "f1ed193f-4c69-4424-919b-1e6c2432fc77",
+      "name": "Setas silvestres",
+      "quantity": 11,
+      "unit": "kg",
+      "minStock": 9,
+      "cost": 430,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.248Z"
+    },
+    {
+      "id": "51528a90-291d-4876-b794-be7ff812cb69",
+      "name": "Arroz carnaroli",
+      "quantity": 22,
+      "unit": "kg",
+      "minStock": 12,
+      "cost": 185,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.255Z"
+    },
+    {
+      "id": "604c1b37-9716-4875-b9f8-58c671e4d373",
+      "name": "Parmesano reggiano",
+      "quantity": 9,
+      "unit": "kg",
+      "minStock": 5,
+      "cost": 560,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.260Z"
+    },
+    {
+      "id": "b1033cd6-ec58-40ec-a665-d03e3bb61919",
+      "name": "Magret de pato",
+      "quantity": 7,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 960,
+      "status": "Bajo",
+      "updatedAt": "2026-04-08T21:12:12.265Z"
+    },
+    {
+      "id": "b9974095-94fa-40e3-9571-55daca54f4f7",
+      "name": "Higos frescos",
+      "quantity": 5,
+      "unit": "kg",
+      "minStock": 6,
+      "cost": 290,
+      "status": "Bajo",
+      "updatedAt": "2026-04-08T21:12:12.272Z"
+    },
+    {
+      "id": "3bd70c88-6a23-4a66-8be7-d840303090a3",
+      "name": "Salmon fresco",
+      "quantity": 10,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 840,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.427Z"
+    },
+    {
+      "id": "9bb76f64-489a-4d73-96d7-084651f03b62",
+      "name": "Yuca",
+      "quantity": 30,
+      "unit": "kg",
+      "minStock": 15,
+      "cost": 55,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.284Z"
+    },
+    {
+      "id": "32dee435-5f2a-4cb3-a993-f4f2e231b2d8",
+      "name": "Camarones",
+      "quantity": 10,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 620,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.290Z"
+    },
+    {
+      "id": "f3b9aa2a-832f-48d1-8991-9acf8f132ae7",
+      "name": "Platano verde",
+      "quantity": 50,
+      "unit": "kg",
+      "minStock": 20,
+      "cost": 42,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.419Z"
+    },
+    {
+      "id": "937ab7f6-4c12-47a4-a3cb-db98e520bae7",
+      "name": "Chocolate Valrhona",
+      "quantity": 12,
+      "unit": "kg",
+      "minStock": 6,
+      "cost": 730,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.304Z"
+    },
+    {
+      "id": "a0d85e6b-1677-448e-bd35-d2107e376ff9",
+      "name": "Pistacho",
+      "quantity": 6,
+      "unit": "kg",
+      "minStock": 4,
+      "cost": 890,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.313Z"
+    },
+    {
+      "id": "a5a4b9a8-71da-4d4a-99d6-9e5f30eb2dda",
+      "name": "Frutos rojos frescos",
+      "quantity": 8,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 360,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.410Z"
+    },
+    {
+      "id": "d533b568-b166-4cf0-96e5-91ae582630d3",
+      "name": "Leche de coco",
+      "quantity": 18,
+      "unit": "lt",
+      "minStock": 10,
+      "cost": 145,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.326Z"
+    },
+    {
+      "id": "c7a99294-3ce2-43e2-bfe5-aa832d7ddc3e",
+      "name": "Ron anejo",
+      "quantity": 14,
+      "unit": "botellas",
+      "minStock": 6,
+      "cost": 520,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.333Z"
+    },
+    {
+      "id": "4dbe7042-502d-40d5-af0a-2fe71184b1a5",
+      "name": "Pulpa de maracuya",
+      "quantity": 9,
+      "unit": "lt",
+      "minStock": 5,
+      "cost": 210,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.343Z"
+    },
+    {
+      "id": "9172a682-d343-4cff-97b1-f64a9b9815de",
+      "name": "Limon persa",
+      "quantity": 35,
+      "unit": "kg",
+      "minStock": 15,
+      "cost": 80,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.349Z"
+    },
+    {
+      "id": "db87b2ba-2c38-4682-9484-5250a8509045",
+      "name": "Hierbabuena",
+      "quantity": 5,
+      "unit": "kg",
+      "minStock": 4,
+      "cost": 95,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.356Z"
+    },
+    {
+      "id": "bd89f6aa-8cd9-4d39-964a-759a9607a5b8",
+      "name": "Mantequilla",
+      "quantity": 16,
+      "unit": "kg",
+      "minStock": 8,
+      "cost": 260,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.362Z"
+    },
+    {
+      "id": "ff1fbbeb-b9a9-449d-a245-42b4233bdf51",
+      "name": "Harina de trigo",
+      "quantity": 28,
+      "unit": "kg",
+      "minStock": 12,
+      "cost": 58,
+      "status": "Normal",
+      "updatedAt": "2026-04-08T21:12:12.369Z"
+    }
+  ],
+  "inventoryMovements": [
+    {
+      "id": "ae729ec8-0592-48e2-9219-092dd59c323c",
+      "itemId": "3bd70c88-6a23-4a66-8be7-d840303090a3",
+      "type": "out",
+      "quantity": 3,
+      "note": "Preparacion de turno noche",
+      "createdAt": "2026-04-08T21:12:12.427Z",
+      "createdBy": "04cfa177-a208-4bde-a81a-98b58a6aa73b"
+    },
+    {
+      "id": "a79ac28d-ca26-46a4-8631-23a9a5838df7",
+      "itemId": "f3b9aa2a-832f-48d1-8991-9acf8f132ae7",
+      "type": "in",
+      "quantity": 10,
+      "note": "Recepcion de proveedor local",
+      "createdAt": "2026-04-08T21:12:12.419Z",
+      "createdBy": "04cfa177-a208-4bde-a81a-98b58a6aa73b"
+    },
+    {
+      "id": "9fb822d5-a7d0-4eba-86a1-e2d3a6cc5a3a",
+      "itemId": "a5a4b9a8-71da-4d4a-99d6-9e5f30eb2dda",
+      "type": "adjustment",
+      "quantity": 8,
+      "note": "Recuento de cierre",
+      "createdAt": "2026-04-08T21:12:12.410Z",
+      "createdBy": "04cfa177-a208-4bde-a81a-98b58a6aa73b"
+    },
+    {
+      "id": "109af042-0090-4ec7-9033-3b4c16312570",
+      "itemId": "5014e50f-7baf-407b-8463-b2ff775cb3dc",
+      "type": "out",
+      "quantity": 2,
+      "note": "Servicio de degustacion del mediodia",
+      "createdAt": "2026-04-08T21:12:12.402Z",
+      "createdBy": "04cfa177-a208-4bde-a81a-98b58a6aa73b"
+    }
+  ],
+  "activity": [
+    {
+      "id": "e6c0108b-77d0-4717-8801-6d249091916c",
+      "user": "Manuel Guzman",
+      "action": "movio",
+      "detail": "Salmon fresco (out)",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "993944a8-e478-45cc-8555-9bae3d005777",
+      "user": "Manuel Guzman",
+      "action": "movio",
+      "detail": "Platano verde (in)",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "dcbbdd2d-6243-47f4-bc1e-7e3c6f5812e1",
+      "user": "Manuel Guzman",
+      "action": "movio",
+      "detail": "Frutos rojos frescos (adjustment)",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "30d88f7a-9e52-4a66-90ec-1d6458773ed4",
+      "user": "Manuel Guzman",
+      "action": "movio",
+      "detail": "Vieiras premium (out)",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "21040d99-8002-4f5d-a7f1-05f9e07c04c0",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Harina de trigo",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "5e4d600c-b417-4822-af69-b105c3bb6dba",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Mantequilla",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "3495a399-e34e-4887-9d57-c6012903bf88",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Hierbabuena",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "df103bbb-9515-48d3-8323-a60c3c4d2a06",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Limon persa",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "616c33cd-ee1e-4bd7-af04-079a208698ef",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Pulpa de maracuya",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "c76fbf0c-afd2-4dc3-b635-3e83cf7a45e1",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Ron anejo",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "ca1baca0-54ff-4e04-937f-e74a06b21166",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Leche de coco",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "614f9543-5603-43fc-8514-13c99e143830",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Frutos rojos frescos",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "ecec90af-dee4-4318-9ed9-2765512ca215",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Pistacho",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "b8b3b3a8-4661-4f07-9410-42781eeacdcd",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Chocolate Valrhona",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "b33c84d7-728b-4437-9d48-4b1cd8738881",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Platano verde",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "0af6c521-a2e0-4b80-995d-a5ef532d2bac",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Camarones",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "fe979d9e-3da4-4850-b9b5-27a028b34cb6",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Yuca",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "4c3cfa6b-d3d2-44b7-9ec6-65c3bd22e9a7",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Salmon fresco",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "ed80cfdd-ad81-40ba-9c21-a127c00327d2",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Higos frescos",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "fd37d210-d551-4182-aeee-203489d21e07",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Magret de pato",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "ee72ce57-280d-4983-bfbb-d757e9df9d75",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Parmesano reggiano",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "88ebfde9-c364-4d61-b7aa-f2236f19aa65",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Arroz carnaroli",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "c53128e7-90ba-41ca-a96c-f7a9d7bf9047",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Setas silvestres",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "1943d338-7edc-4eb6-a9bd-d4711563d87c",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Bacalao premium",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "227c362a-7ca2-42c6-a974-d847e4f45f13",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Solomillo madurado",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "ed17958b-307d-48a3-874d-981d32015509",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Pulpo",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "983ce081-8bd7-4fdb-9af8-805e367a2226",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Carne de cangrejo",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "773da4e8-62fd-4af8-a549-ec16fde7474a",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Coliflor",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "22a6645e-805b-4d8c-92e6-a04e4584e7a4",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Vieiras premium",
+      "time": "2026-04-08 21:12"
+    },
+    {
+      "id": "f060370c-6856-49c4-8297-097621d312c5",
+      "user": "Manuel Guzman",
+      "action": "agrego",
+      "detail": "insumo Nueces caramelizadas",
+      "time": "2026-04-08 21:12"
+    }
+  ]
+}

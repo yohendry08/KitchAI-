@@ -1,0 +1,33 @@
+{
+  "name": "kitchai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "smoke:core": "node scripts/smoke-core-flows.mjs",
+    "smoke:orders": "node scripts/smoke-live-order-flow.mjs",
+    "smoke:persistence": "node scripts/smoke-persistence-modes.mjs",
+    "smoke:all": "npm run smoke:core && npm run smoke:orders && npm run smoke:persistence",
+    "migrate:state:sql": "node scripts/migrate-dbjson-to-postgres.mjs",
+    "migrate:business:sql": "node scripts/migrate-dbjson-to-business-schema.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "openai": "^6.33.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "@types/pg": "^8.15.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
