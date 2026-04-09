@@ -152,13 +152,28 @@ export function ClientShell({ children, backHref }: ClientShellProps) {
                 </Link>
               </nav>
 
-              <Link href="/cliente/perfil" className="rounded-full">
-                <Avatar className="h-10 w-10 rounded-2xl border-2 border-[#b7882d]/80 shadow-[0_8px_18px_rgba(119,75,15,0.22)]">
-                  <AvatarFallback className="rounded-2xl bg-[linear-gradient(180deg,#2d3a43_0%,#10171c_100%)] text-[11px] font-semibold text-[#f8efe1]">
-                    {getInitials(resolvedUser.firstName, resolvedUser.lastName)}
-                  </AvatarFallback>
-                </Avatar>
-              </Link>
+              <div className="flex items-center gap-2 sm:gap-3">
+                <button
+                  type="button"
+                  onClick={signOut}
+                  className="inline-flex items-center justify-center rounded-full border border-[#eadfce] bg-[#fffaf4] p-2.5 text-[#805410] transition hover:bg-[#f4ebdf] lg:px-4"
+                  aria-label="Cerrar sesion"
+                  title="Cerrar sesion"
+                >
+                  <LogOut className="h-4 w-4" />
+                  <span className="hidden text-xs font-medium uppercase tracking-[0.18em] lg:ml-2 lg:inline">
+                    Salir
+                  </span>
+                </button>
+
+                <Link href="/cliente/perfil" className="rounded-full">
+                  <Avatar className="h-10 w-10 rounded-2xl border-2 border-[#b7882d]/80 shadow-[0_8px_18px_rgba(119,75,15,0.22)]">
+                    <AvatarFallback className="rounded-2xl bg-[linear-gradient(180deg,#2d3a43_0%,#10171c_100%)] text-[11px] font-semibold text-[#f8efe1]">
+                      {getInitials(resolvedUser.firstName, resolvedUser.lastName)}
+                    </AvatarFallback>
+                  </Avatar>
+                </Link>
+              </div>
             </div>
           </header>
 
